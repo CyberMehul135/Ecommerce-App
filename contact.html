@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts: Shop T-shirt, Jackets</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
+    <script src="contact.js" defer></script>
+</head>
+<body>
+    <annoucementbar class="annoucement-bar">
+        <div class="left-arrow-container arrow">
+            <i class="fa-solid fa-arrow-left"></i>
+        </div>
+        <p class="annoucement-msg">Prepaid Orders dispatch within 48 hours</p>
+        <div class="right-arrow-container arrow">
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
+    </annoucementbar>
+    <nav>
+        <div class="nav-container">
+            <div class="nav-left-side">
+                <i class="fa-solid fa-bars menu"></i>
+                <a href="index.html" class="home">Home</a>
+                <a href="products.html" class="products">Products</a>
+                <a href="contact.html" class="contact">Contact</a>
+            </div>
+            <img src="./images/Logo-150x.avif" alt="logo" class="logo">
+            <div class="nav-right-side">
+                <a href="account.html" class="my-account"><i class="fa-regular fa-user icons"></i><div id="user-name"></div></a>
+                <a href="cart.html" class="my-cart"><i class="fa-solid fa-cart-shopping icons"> <sup id="cart-number">0</sup></i></a>
+            </div>
+        </div>
+    </nav>
+    <aside>
+        <div class="slide-bar-heading-container">
+            <div class="slide-bar-heading"><i class="fa-solid fa-circle-user user"></i><span>User</span></div>
+            <div class="close-btn"><i class="fa-solid fa-square-xmark" style="font-size: 21px;"></i></div>
+        </div>
+        <div class="slide-bar-main-content">
+            <div class="slide-home link"><a href="index.html"><span class="icon"><i class="fa-solid fa-house"></i></span>Home</a></div>
+            <div class="slide-products link"><a href="products.html"><span class="icon"><i class="fa-solid fa-shirt"></i></span>Products</a></div>
+            <div class="slide-contacts link"><a href="contact.html"><span class="icon"><i class="fa-solid fa-file-signature"></i></span>Contacts</a></div>
+            <div class="slide-account link"><a href="account.html"><span class="icon"><i class="fa-solid fa-user"></i></span>Account</a></div>
+            <div class="slide-logout link"><a href=""><span class="icon"><i class="fa-solid fa-right-from-bracket"></i></span>Logout</a></div>
+        </div>
+    </aside>
+
+    <main>
+        <div class="main-container">
+            <div class="form-element">
+                <form action="">
+                    <h2 class="heading">Contact us</h2>
+                    <p>Get in touch with us. We are always here to help you.</p>
+
+                    <label for="full-name">Full Name</label><br>
+                    <input type="text" id="full-name" placeholder="Enter Full Name" required><br>
+
+                    <label for="email">Email Address</label><br>
+                    <input type="email" id="email" placeholder="abc@boultz.com" required><br>
+
+                    <label for="subject">Subject</label><br>
+                    <input type="text" id="subject" placeholder="Title Of Your Message" required><br>
+
+                    <label for="message">Message</label><br>
+                    <textarea name="message" id="message" placeholder="we are always here to help you." cols="30" rows="3"></textarea><br>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+            <div class="google-map-element">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4441.092593015593!2d72.93589759498663!3d20.608514143545992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1733844020257!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>        
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="about-us">
+                <p>ABOUT US</p>
+                <p>Boultz Pvt Ltd</p>
+                <p>Explore to CHANGE.</p>
+            </div>
+            <div class="policies">
+                <p>FOOTER - POLICIES</p>
+                <P>Return Your Order</P>
+                <p>Shipping Policy</p>
+                <p>Return, Refund, and Cancellation</p>
+                <p>Terms and Conditions</p>
+                <p>Privacy Policy</p>
+                <p>Fraud Protection</p>
+                <p>Contact Us</p>
+            </div>
+            <div class="news-letter">
+                <P>NEWSLETTER</P>
+                <P>You can be the first one to know about our new releases, latest offers and more.</P>
+            </div>
+            <div class="follow-us">
+                <P>FOLLOW US</P>
+                <P class="p">Stay in touch!</P>
+                <div class="social-media-handles">
+                    <i class="fa-brands fa-facebook-f social-media" id="facebook"></i>
+                    <i class="fa-brands fa-twitter social-media" id="fa-twitter"></i>
+                    <i class="fa-brands fa-instagram social-media" id="instagram"></i>
+                    <i class="fa-brands fa-youtube social-media" id="youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="created-by">
+            <p>Design and Code by Cyber Mehul &nbsp;<span>&hearts;</span></p>
+        </div>
+    </footer>
+
+</body>
+</html>                                                                                                                                                                                                             

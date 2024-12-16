@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="account.css">
+    <script src="account.js" defer></script>
+</head>
+<body>
+    <annoucementbar class="annoucement-bar">
+        <div class="left-arrow-container arrow">
+            <i class="fa-solid fa-arrow-left"></i>
+        </div>
+        <p class="annoucement-msg">Prepaid Orders dispatch within 48 hours</p>
+        <div class="right-arrow-container arrow">
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
+    </annoucementbar>
+    <nav>
+        <div class="nav-container">
+            <div class="nav-left-side">
+                <i class="fa-solid fa-bars menu"></i>
+                <a href="index.html" class="home">Home</a>
+                <a href="products.html" class="products">Products</a>
+                <a href="contact.html" class="contact">Contact</a>
+            </div>
+            <img src="./images/Logo-150x.avif" alt="logo" class="logo">
+            <div class="nav-right-side">
+                <a href="" class="logout"><i class="fa-solid fa-right-from-bracket icons"></i></i></a>
+                <a href="cart.html" class="my-cart"><i class="fa-solid fa-cart-shopping icons"> <sup id="cart-number">0</sup></i></a>
+            </div>
+        </div>
+    </nav>
+    <aside>
+        <div class="slide-bar-heading-container">
+            <div class="slide-bar-heading"><i class="fa-solid fa-circle-user user"></i><span>Boultz.com</span></div>
+            <div class="close-btn"><i class="fa-solid fa-square-xmark" style="font-size: 21px;"></i></div>
+        </div>
+        <div class="slide-bar-main-content">
+            <div class="slide-home link"><a href="index.html"><span class="icon"><i class="fa-solid fa-house"></i></span>Home</a></div>
+            <div class="slide-products link"><a href="products.html"><span class="icon"><i class="fa-solid fa-shirt"></i></span>Products</a></div>
+            <div class="slide-contacts link"><a href="contact.html"><span class="icon"><i class="fa-solid fa-file-signature"></i></span>Contacts</a></div>
+            <div class="slide-account link"><a href="account.html"><span class="icon"><i class="fa-solid fa-user"></i></span>Account</a></div>
+            <div class="slide-logout link"><a href=""><span class="icon"><i class="fa-solid fa-right-from-bracket"></i></span>Logout</a></div>
+        </div>
+    </aside>
+
+    <main>
+        <div class="signup-signin">
+            <form class="sign-up-form authentication">
+                <h3 class="heading"><span class="signup">SIGNUP</span><span class="signin">SIGNIN</span></h3>
+    
+                <label for="user-name">Username</label>
+                <input type="text" class="first-name" id="user-name" required><br>
+    
+                <label for="email">Email</label>
+                <input type="email" class="email" id="email" required><br>
+    
+                <label for="user-password">Password</label>
+                <input type="password" class="user-password" id="user-password" required><br>
+    
+                <button type="submit">Register</button>
+            </form>
+            <form class="sign-in-form authentication">
+                <h3 class="heading"><span class="signup">SIGNUP</span><span class="signin">SIGNIN</span></h3>
+    
+                <label for="enter-name">Username</label>
+                <input type="text" class="enter-name" id="enter-name" required><br>
+    
+                <label for="enter-password">Password</label>
+                <input type="password" class="enter-password" id="enter-password" required><br>
+    
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,167 @@
+{
+   "jackets": [
+    {
+        "id": "J-1",
+        "productName": "Alpine beige jacket",
+        "productImage": "./images/J-1.png",
+        "productPrice": "₹ 2899.00",
+        "productActualPrice": "₹ 4899.00",
+        "productAvailableQty": "10"
+    },
+    {
+        "id": "J-2",
+        "productName": "Forest Explore Jacket",
+        "productImage": "./images/J-2.png",
+        "productPrice": "₹ 2899.00",
+        "productActualPrice": "₹ 4899.00",
+        "productAvailableQty": "20"
+    },
+    {
+        "id": "J-3",
+        "productName": "Sapphire Sonet Jacket",
+        "productImage": "./images/J-3.png",
+        "productPrice": "₹ 3799.00",
+        "productActualPrice": "₹ 5799.00",
+        "productAvailableQty": "20"
+    },
+    {
+        "id": "J-4",
+        "productName": "Indigo Stitch Jacket",
+        "productImage": "./images/J-4.png",
+        "productPrice": "₹ 5499.00",
+        "productActualPrice": "₹ 7499.00",
+        "productAvailableQty": "20"
+    },
+    {
+        "id": "J-5",
+        "productName": "Wild Flower Jacket",
+        "productImage": "./images/J-5.png",
+        "productPrice": "₹ 5999.00",
+        "productActualPrice": "₹ 8999.00",
+        "productAvailableQty": "20"
+    },
+    {
+        "id": "J-6",
+        "productName": "Sahara jacket",
+        "productImage": "./images/J-6.png",
+        "productPrice": "₹ 5499.00",
+        "productActualPrice": "₹ 7499.00",
+        "productAvailableQty": "20"
+    },
+    {
+        "id": "J-7",
+        "productName": "Lotus Oasis Jacket",
+        "productImage": "./images/J-7.png",
+        "productPrice": "₹ 7499.00",
+        "productActualPrice": "₹ 9499.00",
+        "productAvailableQty": "20"
+    },
+    {
+        "id": "J-8",
+        "productName": "Midnight Threded jacket",
+        "productImage": "./images/J-8.png",
+        "productPrice": "₹ 3799.00",
+        "productActualPrice": "₹ 5799.00",
+        "productAvailableQty": "20"
+    }
+   ],
+
+   "tShirts": [
+    {
+        "id": "T-1",
+        "productName": "Blue Chain Polo T-Shirt",
+        "productImage": "./images/T-1.png",
+        "productPrice": "₹ 1299.00",
+        "productActualPrice": "₹ 2199.00",
+        "productAvailableQty": "30"
+    },
+    {
+        "id": "T-2",
+        "productName": "Green Textured Polo T-Shirt",
+        "productImage": "./images/T-2.png",
+        "productPrice": "₹ 1199.00",
+        "productActualPrice": "₹ 2999.00",
+        "productAvailableQty": "30"
+    },
+    {
+        "id": "T-3",
+        "productName": "Brown Chain Polo T-Shirt",
+        "productImage": "./images/T-3.png",
+        "productPrice": "₹ 1299.00",
+        "productActualPrice": "₹ 2199.00",
+        "productAvailableQty": "30"
+    },
+    {
+        "id": "T-4",
+        "productName": "Black Chain Polo T-Shirt",
+        "productImage": "./images/T-4.png",
+        "productPrice": "₹ 1299.00",
+        "productActualPrice": "₹ 2199.00",
+        "productAvailableQty": "30"
+    },
+    {
+        "id": "T-5",
+        "productName": "Sage White Polo T-Shirt",
+        "productImage": "./images/T-5.png",
+        "productPrice": "₹ 1599.00",
+        "productActualPrice": "₹ 2999.00",
+        "productAvailableQty": "30"
+    },
+    {
+        "id": "T-6",
+        "productName": "White Textured Polo T-Shirt",
+        "productImage": "./images/T-6.png",
+        "productPrice": "₹ 1199.00",
+        "productActualPrice": "₹ 2999.00",
+        "productAvailableQty": "30"
+    },
+    {
+        "id": "T-7",
+        "productName": "Orange Chain Polo T-Shirt",
+        "productImage": "./images/T-7.png",
+        "productPrice": "₹ 1199.00",
+        "productActualPrice": "₹ 2199.00",
+        "productAvailableQty": "30"
+    },
+    {
+        "id": "T-8",
+        "productName": "Sage off Polo T-Shirt",
+        "productImage": "./images/T-8.png",
+        "productPrice": "₹ 1999.00",
+        "productActualPrice": "₹ 2999.00",
+        "productAvailableQty": "30"
+    },
+    {
+        "id": "T-9",
+        "productName": "Sage Pink Polo T-Shirt",
+        "productImage": "./images/T-9.png",
+        "productPrice": "₹ 1199.00",
+        "productActualPrice": "₹ 2299.00",
+        "productAvailableQty": "30"
+    },
+    {
+        "id": "T-10",
+        "productName": "Sage Black Polo T-Shirt",
+        "productImage": "./images/T-10.png",
+        "productPrice": "₹ 1499.00",
+        "productActualPrice": "₹ 2199.00",
+        "productAvailableQty": "30"
+    },
+    {
+        "id": "T-11",
+        "productName": "Sage Sky-blue Polo T-Shirt",
+        "productImage": "./images/T-11.png",
+        "productPrice": "₹ 1699.00",
+        "productActualPrice": "₹ 2599.00",
+        "productAvailableQty": "30"
+    },
+    {
+        "id": "T-12",
+        "productName": "Raven Black Polo T-Shirt",
+        "productImage": "./images/T-12.png",
+        "productPrice": "₹ 1999.00",
+        "productActualPrice": "₹ 2999.00",
+        "productAvailableQty": "30"
+    }
+   ]
+}
